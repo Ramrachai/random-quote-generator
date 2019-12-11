@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  background: #c8200f;
+  padding: 10%;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #4b3baf;
+  width: 70%;
+}
+.quoteBtn {
+  background: #4a2467;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: block;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.author {
+  font-size: 12px;
+  font-style: italic;
+}
+blockquote {
+  border-left: 4px solid white;
+}
+blockquote p {
+  padding-left: 10px;
+}
